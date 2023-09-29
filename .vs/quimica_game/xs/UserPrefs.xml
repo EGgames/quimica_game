@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{D520C0CE-5BF1-28BF-E026-202F784BB748}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NewMonoBehaviour.cs">
+    <Files>
+      <File FileName="Assets/scripts/Movement.cs" Line="54" Column="1" />
+      <File FileName="Assets/scripts/camera follow.cs" />
+      <File FileName="Assets/scripts/Attack.cs" Line="50" Column="2" />
+      <File FileName="NewMonoBehaviour.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="quimica_game" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6efd2195-4ad9-4821-8a28-10dd800648e7" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
