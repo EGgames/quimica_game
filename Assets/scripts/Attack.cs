@@ -1,18 +1,50 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Attack : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private Transform Attackcheck;
+
+    [SerializeField] private float hitrange;
+
+    [SerializeField] private float hitdamage;
+
+    [SerializeField] private float timeforattack;
+
+    [SerializeField] private float timefornextattack;
+
+    private void Update()
     {
-        
+        if (timefornextattack > 0)
+        {
+            timefornextattack -= Time.deltaTime;
+        }
+        if (Input.GetButtonDown("Fire1") && timefornextattack <= 0)
+        {
+            Golpe();
+            timefornextattack = timeforattack;
+
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Golpe()
     {
-        
+        Collider2D[] objetos = Physics2D.OverlapCircleAll(Attackcheck.position, hitrange);
+
+        foreach (Collider2D colisionador in objetos)
+        {
+            if (colisionador.CompareTag("Enemy"))
+            {
+                colisionador.transform.GetComponent<Enemy>().TakeHit(hitdamage);
+
+            }
+        }
     }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(Attackcheck.position, hitrange);
+    }
+
 }

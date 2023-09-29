@@ -111,7 +111,6 @@
     <None Include="Library/PackageCache/com.unity.2d.aseprite@1.0.0/Editor/Assets/UI/ExportAnimAssetsStyleSheet.uss" />
     <None Include="Library/PackageCache/com.unity.2d.aseprite@1.0.0/Editor/Assets/UI/AsepriteImporterStyleSheet.uss" />
     <None Include="Library/PackageCache/com.unity.2d.aseprite@1.0.0/Editor/Unity.2D.Aseprite.Editor.asmdef" />
-    <None Include="Assets\NewFile.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

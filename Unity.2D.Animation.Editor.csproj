@@ -295,7 +295,6 @@
     <None Include="Library/PackageCache/com.unity.2d.animation@9.0.3/Editor/Unity.2D.Animation.Editor.asmdef" />
     <None Include="Library/PackageCache/com.unity.2d.animation@9.0.3/Editor/Assets/SkinningModule/SkinningModule-GUITextureClip.shader" />
     <None Include="Library/PackageCache/com.unity.2d.animation@9.0.3/Editor/Assets/SpriteLibraryEditor/GridView.uss" />
-    <None Include="Assets\NewFile.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

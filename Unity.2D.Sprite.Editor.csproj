@@ -99,7 +99,6 @@
     <None Include="Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Unity.2D.Sprite.Editor.asmdef" />
     <None Include="Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/UI/SpriteEditor/PolygonChangeShapeWindow.uxml" />
     <None Include="Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/UI/SpriteEditor/SpriteEditor.uss" />
-    <None Include="Assets\NewFile.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

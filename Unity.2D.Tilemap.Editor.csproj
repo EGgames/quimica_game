@@ -150,7 +150,6 @@
     <None Include="Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/UI/GridPaintPaletteWindow.uss" />
     <None Include="Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/UI/TilePaletteOverlay.uss" />
     <None Include="Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/UI/TilePaletteOverlayDark.uss" />
-    <None Include="Assets\NewFile.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

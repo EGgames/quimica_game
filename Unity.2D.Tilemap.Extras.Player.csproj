@@ -68,7 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Library/PackageCache/com.unity.2d.tilemap.extras@3.1.1/Runtime/Unity.2D.Tilemap.Extras.asmdef" />
-    <None Include="Assets\NewFile.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
